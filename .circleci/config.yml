@@ -34,7 +34,7 @@ jobs:
       #- run mvn package
 
       - store_artifacts:
-          path: target/*.war
+          path: ~/repo/*.war
           destination: /tmp/
 
       - save_cache:
